@@ -1,0 +1,153 @@
+/* For all pages  */
+span a{
+    color: white;
+    margin: 18px;
+font-size: 20px;
+text-decoration: none;
+font-weight: bold;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+/* Main page */
+#mainbody{
+background-image:url(mainbg.jpeg);
+background-size: cover;
+}
+.mainh1{
+    color: white;
+    text-align: center;
+    font-size:60px;
+    font-family: Arial, Helvetica, sans-serifx;
+}
+
+/* Home page */
+
+#homebody{
+    background-color: rgb(216, 92, 216);
+}
+/* Attendance Page */
+
+#classbody{
+    background-color:  rgb(150, 112, 252);
+}
+
+#classtable {
+margin-left: 500px;
+color: white;
+font-size: 20px;
+}
+
+#classtable td{
+    text-align: center;
+}
+#nametablehead{
+color: black;
+
+}
+/* Laws of exponent */
+
+#lawbody{
+    background-color:rgb(216, 92, 216); 
+}
+#lawtable{
+    font-size:25px;
+   font-weight: bold;
+   margin-left: 350px;
+   border: none;
+   text-align: center;
+   border-spacing: 10px;
+
+
+}
+#lawtable th{
+    background-color: rgb(156, 210, 156);
+    border: none;
+    padding: 10px;
+    border-radius:7px;
+}
+
+#lawtable td{
+    background-color: rgb(221, 221, 145);
+    border: none;
+    padding: 10px;
+    border-radius:7px;
+}
+#absent{
+    color: red;
+}
+th#lawhead{
+    background-color: rgb(155, 215, 232);
+    border-radius:7px;
+}
+
+/* contact us  */
+
+#contbody{
+    background-color: rgb(150, 112, 252);
+    
+}
+#contbody p{
+    text-align: center;
+    font-size: 20px;
+    margin:5px 120px 30px;
+}
+.container{
+display: flex;
+margin-left: 100px;
+}
+#contactdiv1{
+/* border: 2px solid black; */
+width:300px;
+height: 350px;
+}
+#contactdiv1 img{
+    width: 300px;
+    height:350px;
+}
+#contactdiv2{
+/* border: 2px solid black; */
+height: 350px;
+background-color: white;
+}
+#conttable{
+    margin:10px
+
+}
+#conttable input{
+    height: 25px;
+}
+/* gallery */
+
+
+#mediabody{
+background-color:rgb(216, 92, 216);
+}
+ol{
+    display: flex;
+}
+
+/* media */
+.mediacont{
+    display: flex;
+}
+/* contact Us*/
+#contactbody{
+    background-color:  rgb(150, 112, 252);
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    padding: 8px;
+}
